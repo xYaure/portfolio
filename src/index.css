@@ -3,7 +3,7 @@
 :root {
     --first-color: hsl(353, 100%, 65%);
     --title-color: hsl(244, 24%, 25%);
-    --text-color: hsl(244, 16%, 43%);
+    --text-color: hsl(0, 0%, 100%);
     --body-color: hsl(258, 60%, 98%);
     --container-color: #fff;
 
@@ -55,13 +55,13 @@ textarea {
 }
 
 body {
-    background-color: var(--body-color);
+    background-color: #202020;
     line-height: 1.7;
     color: var(--text-color);
 }
 
 h1, h2, h3 {
-    color: var(--title-color);
+    color: white;
     font-weight: var(--font-semibold);
     line-height: 1.2;
 }
@@ -72,6 +72,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 button {

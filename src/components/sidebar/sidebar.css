@@ -2,7 +2,7 @@
     position: fixed;
     left: 0;
     top: 0;
-    background-color: var(--body-color);
+    background-color: #313131;
     border-right: 1px solid rgba(0, 0, 0, 0.05);
     padding: 2.5rem;
     width: 110px;
@@ -21,8 +21,13 @@
 
 .nav__link {
     font-size: 1.5rem;
-    color: var(--tittle-color);
+    color: white;
     font-weight: var(--font-bold);
+    transition: .3s;
+}
+
+.nav__link:hover {
+    color: #7ED0EC;
 }
 
 .copyright {
