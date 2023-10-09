@@ -1,6 +1,6 @@
 import React from 'react'
 import './sidebar.css'
-import Logo from "../../assets/logo.svg";
+import Logo from "../../assets/logo1.svg";
 
 const Sidebar = () => {
   return (
