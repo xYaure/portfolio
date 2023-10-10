@@ -86,3 +86,11 @@
     transform: translateX(-50%);
     animation: ani-mouse 2s linear infinite;
 }
+
+
+
+@media screen and (max-width: 1024px) {
+    .home__social-link {
+        font-size: 1.125rem;
+    }
+}
