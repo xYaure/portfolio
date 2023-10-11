@@ -1,8 +1,8 @@
 window.addEventListener('load', ()=>{
   const sections = document.querySelectorAll('section');
   const nav = document.querySelectorAll('.nav__item a');
-  console.log(sections)
-  console.log(nav)
+  const i = document.querySelectorAll('.nav__item a i');
+
   window.addEventListener('scroll', ()=>{
     let current = '';
   
@@ -14,11 +14,19 @@ window.addEventListener('load', ()=>{
       }
     })
   
-    nav.forEach(a => {
-      a.classList.remove("active");
-      if(a.getAttribute("value") == current.substring(0, a.getAttribute("value").length)) {
+    i.forEach(a => {
+      if(a.getAttribute("value1") == current.substring(0, a.getAttribute("value1").length)) {
+        a.setAttribute('class', `${a.getAttribute("value2")}-fill`)
         a.classList.add("active");
+      } else {
+        a.classList.remove("active");
+        a.setAttribute('class', `${a.getAttribute("value2")}`)
       }
-    })
+    });
+
+
+
+
+
   })
 })

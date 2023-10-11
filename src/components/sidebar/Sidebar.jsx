@@ -17,33 +17,33 @@ const Sidebar = () => {
           <ul className="nav__list">
 
             <li className="nav__item">
-              <a href="#home" value="home" className="nav__link active">
-              <i className="icon-home"></i>
+              <a href="#home" className="nav__link">
+                <i value1="home" value2="bi-house" className="bi bi-house active"></i>
               </a>
             </li>
             
             <li className="nav__item">
-              <a href="#about" value="about" className="nav__link">
-              <i className="icon-user-following"></i>
+              <a href="#about" className="nav__link">
+              <i value1="about" value2="bi-person"  className="bi bi-person"></i>
               </a>
             </li>
 
             <li className="nav__item">
-              <a href="#services" value="services" className="nav__link">
-              <i className="icon-briefcase"></i>
+              <a href="#services" className="nav__link">
+              <i value1="services" value2="bi-briefcase" className="bi bi-briefcase"></i>
               </a>
             </li>
 
 
             <li className="nav__item">
-              <a href="#portfolio" value="portfolio" className="nav__link">
-              <i className="icon-layers"></i>
+              <a href="#portfolio" className="nav__link">
+              <i value1="portfolio" value2="bi-layers"  className="bi bi-layers"></i>
               </a>
             </li>
             
             <li className="nav__item">
-              <a href="#contact" value="contact" className="nav__link">
-              <i className="icon-bubble"></i>
+              <a href="#contact" className="nav__link">
+              <i value1="contact" value2="bi-chat"  className="bi bi-chat"></i>
               </a>
             </li>
 
