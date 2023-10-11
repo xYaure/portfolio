@@ -1,6 +1,5 @@
 window.addEventListener('load', ()=>{
   const sections = document.querySelectorAll('section');
-  const nav = document.querySelectorAll('.nav__item a');
   const i = document.querySelectorAll('.nav__item a i');
 
   window.addEventListener('scroll', ()=>{
