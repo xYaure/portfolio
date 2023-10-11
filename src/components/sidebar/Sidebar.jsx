@@ -18,7 +18,7 @@ const Sidebar = () => {
 
             <li className="nav__item">
               <a href="#home" className="nav__link">
-                <i value1="home" value2="bi-house" className="bi bi-house active"></i>
+                <i value1="home" value2="bi-house" className="bi bi-house-fill active"></i>
               </a>
             </li>
             

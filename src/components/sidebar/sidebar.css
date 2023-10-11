@@ -26,9 +26,11 @@
     font-weight: var(--font-bold);
     transition: .3s;
 }
+
 .nav__link i {
-    transition: .4s;
+    transition: .3s;
 }
+
 .nav__link:hover {
     color: #7ED0EC;
 }
@@ -76,4 +78,5 @@
 
 .active {
     color: #7ED0EC;
+    transition: .3s;
 }

@@ -23,10 +23,5 @@ window.addEventListener('load', ()=>{
         a.setAttribute('class', `${a.getAttribute("value2")}`)
       }
     });
-
-
-
-
-
   })
 })
