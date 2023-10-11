@@ -71,3 +71,7 @@
         left: 0;
     }
 }
+
+.active {
+    color: #7ED0EC;
+}
