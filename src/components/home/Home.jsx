@@ -3,6 +3,7 @@ import './home.css'
 import Me from "../../assets/avatar.svg"
 import HeaderSocials from './HeaderSocials'
 import ScrollDown from './ScrollDown'
+import { motion } from 'framer-motion'
 
 const Home = () => {
   return (

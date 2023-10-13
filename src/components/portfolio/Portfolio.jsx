@@ -6,7 +6,7 @@ import Card from './Card'
 const Portfolio = () => {
   return (
     <section className="portfolio container section" id='portfolio'>
-      <h2 className="section__title">Doświadczenie</h2>
+      <h2 className="section__tittle">Doświadczenie</h2>
 
       <div className="portfolio__container section grid">
         <div className="timeline grid">

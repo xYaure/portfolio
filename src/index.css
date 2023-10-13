@@ -5,6 +5,7 @@
     --title-color: hsl(244, 24%, 25%);
     --text-color: hsl(0, 0%, 100%);
     --body-color: hsl(258, 60%, 98%);
+    --turq-color: rgb(126, 208, 236);
     --container-color: #fff;
 
     --body-font: 'Poppins', sans-serif;
@@ -24,7 +25,12 @@
     --border-radius: 20px;
     
 }
-
+::-webkit-scrollbar{
+    width: 2.5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #7ED0EC;
+}
 @media screen and (max-width: 1024px) {
     :root {
         --h1-font-size: 1.75rem;

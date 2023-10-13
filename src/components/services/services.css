@@ -1,4 +1,6 @@
-
+.services {
+    padding-top: 5rem;
+}
 .services__container {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 1.875rem;

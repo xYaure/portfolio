@@ -5,7 +5,7 @@ import About_img from "../../assets/avatar.svg"
 const About = () => {
   return (
     <section className="about container section" id='about'>
-      <h2 className="section__title">O Mnie</h2>
+      <h2 className="section__tittle">O Mnie</h2>
 
       <div className="about__container grid">
         <img src={About_img} alt="" className="about__img" />

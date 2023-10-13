@@ -7,7 +7,7 @@ import Image3 from "../../assets/service-3.svg"
 const Services = () => {
   return (
     <section className="services container" id='services'>
-      <h2>Co oferuje?</h2>
+      <h2 className='section__tittle'>Co oferuje?</h2>
       <div className="services__container section grid">
         <div className="services__data">
           <div className="services__img">
