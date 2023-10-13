@@ -13,7 +13,7 @@ const About = () => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">Cześć nazywam się Sebastian, jestem z Polski i tworzę strony internetowe oraz aplikacje w języku C#.</p>
-            <a href="" className="btn">Pobierz moje CV</a>
+            <a href="#home" className="btn">Pobierz moje CV</a>
           </div>
 
           <div className="about__skills grid">
