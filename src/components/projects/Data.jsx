@@ -11,7 +11,8 @@ const Data = [
         name: "Strona internetowa Portfolio",
         category: "website",
         icon: icons[0],
-        showCategory: 'website'
+        showCategory: 'website',
+        site: "https://xyaure.vercel.app/"
     },
     {
         id: 2,
@@ -19,7 +20,8 @@ const Data = [
         name: "Kod Data.jsx dla testu",
         category: "application",
         icon: icons[1],
-        showCategory: 'application'
+        showCategory: 'application',
+        site: ""
     },
     {
         id: 3,
@@ -27,7 +29,8 @@ const Data = [
         name: "Strona internetowa Portfolio wersja 1",
         category: "website",
         icon: icons[0],
-        showCategory: 'website'
+        showCategory: 'website',
+        site: "https://xyaure.github.io/strona/"
     }
 ]
 
