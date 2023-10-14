@@ -21,7 +21,7 @@ const Data = [
         category: "application",
         icon: icons[1],
         showCategory: 'application',
-        site: ""
+        site: Image2
     },
     {
         id: 3,
