@@ -7,11 +7,8 @@ import Data from './Data'
 const Projects = () => {
     const [category, setCategory] = useState(true);
   return (
-    <section id='projects' className='projects section '>
+    <section id='projects' className='projects section'>
         <div className='project__container'>
-            <div className='project__tittle'>
-                <h2 className="section__tittle">Projekty</h2>
-            </div>
             <h3 className='project__categories'>Kategorie</h3>
             <div className="project__buttons">
                 <button onClick={() => setCategory(true)} className='project__button'>Pokaż wszystkie </button>
@@ -25,17 +22,17 @@ const Projects = () => {
                 {Data.map((val, id) => {
                     if (category === true) {
                         return (
-                            <Project key={id} icon={val.icon} name={val.name} image={val.image} category={category}/>
+                            <Project key={id} icon={val.icon} name={val.name} image={val.image} category={val.category} showCategory={category} site={val.site}/>
                         )
                     }
                     else if (category === 'website' && category === val.showCategory) {
                         return (
-                            <Project key={id} icon={val.icon} name={val.name} image={val.image} category={category}/>
+                            <Project key={id} icon={val.icon} name={val.name} image={val.image} category={val.category} showCategory={category} site={val.site}/>
                         )
                     }
                     else if (category === 'application' && category === val.showCategory) {
                         return (
-                            <Project key={id} icon={val.icon} name={val.name} image={val.image} category={category}/>
+                            <Project key={id} icon={val.icon} name={val.name} image={val.image} category={val.category} showCategory={category} site={val.site}/>
                         )
                     }
                 })}
