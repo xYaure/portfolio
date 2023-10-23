@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css'
 import About_img from "../../assets/avatar.svg"
+import CV from "../../assets/cv.png"
 
 const About = () => {
   return (
@@ -8,12 +9,12 @@ const About = () => {
       <h2 className="section__tittle">O Mnie</h2>
 
       <div className="about__container grid">
-        <img src={About_img} alt="" className="about__img" />
+        <img src={About_img} alt="about_img" className="about__img" />
 
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">Cześć nazywam się Sebastian, jestem z Polski i tworzę strony internetowe oraz aplikacje w języku C#.</p>
-            <a href="#home" className="btn">Pobierz moje CV</a>
+            <a href={CV} download="CV_Sebastian_Kłak" className="btn">Pobierz moje CV</a>
           </div>
 
           <div className="about__skills grid">

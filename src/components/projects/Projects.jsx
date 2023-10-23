@@ -14,7 +14,7 @@ const Projects = () => {
                 <button onClick={() => setCategory(true)} className='project__button'>Pokaż wszystkie </button>
                 <button onClick={() => setCategory('website')} className='project__button'>Strony internetowe </button>
                 <button onClick={() => setCategory('application')} className='project__button'>Aplikacje w języku C# </button>
-                <i onClick={() => setCategory(true)} class="bi small_device bi-folder"></i>
+                <i onClick={() => setCategory(true)} className="bi small_device bi-folder"></i>
                 <i onClick={() => setCategory('website')} className='bi small_device bi-browser-chrome'></i>
                 <i onClick={() => setCategory('application')} className='bi small_device bi-code-slash'></i>
             </div>
