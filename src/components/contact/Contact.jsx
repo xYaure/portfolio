@@ -10,7 +10,7 @@ import emailjs from '@emailjs/browser'
       const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_u0qjhoj', 'template_uioz6f7', form.current, 'cJlfLQ_IH84Du5_1s')
+        emailjs.sendForm('service_u0qjhoj', 'template_astxytw', form.current, 'cJlfLQ_IH84Du5_1s')
           .then((result) => {
               console.log(result.text);
           }, (error) => {
