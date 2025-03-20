@@ -17,7 +17,7 @@ const Data = [
         category: "website",
         icon: icons[0],
         showCategory: 'website',
-        site: "https://xyaure.vercel.app/"
+        site: "https://sebastianklak.vercel.app/"
     },
     {
         id: 2,
