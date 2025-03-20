@@ -3,9 +3,17 @@ const Data = [
         id: 1,
         category: "education",
         icon: "icon-graduation",
-        year: "2019 - teraz",
+        year: "2019 - 2024",
         title: "Technikum Informatyczne",
         desc: "Szkoła średnia z wykształceniem informatycznym (INF.02, INF.03)"
+    },
+    {
+        id: 4,
+        category: "education",
+        icon: "icon-graduation",
+        year: "2024 - teraz",
+        title: "Studia",
+        desc: "Studia inżynierskie - programowanie aplikacji biznesowych"
     },
     {
         id: 2,

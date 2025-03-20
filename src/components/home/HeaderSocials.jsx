@@ -7,10 +7,6 @@ const HeaderSocials = () => {
             <i className="fa-brands fa-github"></i>
         </a>
 
-        <a href="https://www.youtube.com/channel/UChfCAmWDcoRk7EYwIMXUuAQ" rel='noreferrer' className="home__social-link" target="_blank">
-            <i className="fa-brands fa-youtube"></i>
-        </a>
-
         <a href="https://www.instagram.com/_se.ba.stian/" rel='noreferrer' className="home__social-link" target="_blank">
             <i className="fa-brands fa-instagram"></i>
         </a>

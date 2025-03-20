@@ -104,3 +104,9 @@
         display: block;
     }
 }
+
+.projects > p {
+    margin-left: 5rem;
+    font-style: italic;
+    color: grey;
+}
